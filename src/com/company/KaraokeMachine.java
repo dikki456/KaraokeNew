@@ -15,12 +15,13 @@ public class KaraokeMachine {
 
         input = new Scanner(System.in);
         mSongBook = songBook;
-        mSongQueue = new ArrayDeque<>();
+        mSongQueue = new    ArrayDeque<>();
         mMenu = new HashMap<String, String>();
         mMenu.put("add", "Add a new song to the songbook");
         mMenu.put("choose", "Select a song by artist");
         mMenu.put("play", "Play next song in the queue");
         mMenu.put("quit", "Exit the program");
+        mMenu.put("git" ,"commit");
 
     }
 
