@@ -9,7 +9,7 @@ public class KaraokeMachine {
     private Scanner input;
     private Queue<Song> mSongQueue;
     public Map<String, String> mMenu;
-
+    public Map<Song,String> rs ;
 
     public KaraokeMachine(SongBook songBook) {
 
