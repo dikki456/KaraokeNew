@@ -113,7 +113,7 @@ public class KaraokeMachine {
             System.out.printf("%d. %s %n", counter, option);
             counter++;
         }
-        System.out.print("Your choice :  ");
+        System.out.print("Your choice you can select:  ");
         String optionAsString = input.nextLine();
         int choice = Integer.parseInt(optionAsString.trim());
         return choice - 1;
